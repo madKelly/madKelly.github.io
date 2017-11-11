@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(193, 190, 190);
+  width: 1200px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* border: 1px solid black;*/
+
+
+}
+
+.logotype {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  /*border: 1px solid black;*/
+}
+
+nav {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 10px;
+  background-color: #c34f4f;
+  height: 35px;
+  line-height: 200%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  border-right: 1px dashed #751b1b;
+  font-size: 18px;
+  float: left;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+}
+
+.entries {
+  margin-left: auto;
+	margin-right: auto;
+  width: 1200px;
+  margin-left: 20px;
+
+}
+
+.entry_1 {
+  width: 560px;
+  height: 400px;
+  margin: 0px 10px 10px 10px;
+  float: left;
+}
+
+.entry_2 {
+  width: 260px;
+  height: 400px;
+  margin: 0px 10px 10px 10px;
+  float: left;
+}
+
+.entryimg  {
+  display: inline-block;
+}
+
+/* zdjęcie duże nad artykułem: szerokość - 560px, wysokość 250px*/
+.entryimg img {
+  width: 560px;
+  height: 250px;
+}
+
+.entryimg2  {
+  display: inline-block;
+}
+
+/* zdjęcie duże nad artykułem: szerokość - 560px, wysokość 250px*/
+.entryimg2 img {
+  width: 260px;
+  height: 250px;
+}
+
+.entrytxt {
+  display: inline-block;
+  font-size: 15px;
+}
