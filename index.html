@@ -3,7 +3,10 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
   <title>Redemption</title>
+
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   <script src="scripts.js"></script>
 </head>
@@ -11,14 +14,21 @@
 <body>
 
   <header>
-    <img src="images/logo.png" class="logotype" />
+    <div id="logotype">
+      <img src="images/logo.png" />
+    </div>
 
     <!-- poprawić nawigację na listę -->
     <!-- dodać nav do header -->
-    <nav>
-      <a href="#">Strona główna</a>
-      <a href="#">Morderstwa</a>
-      <a href="#">Polityka</a>
+    <nav id="navbar">
+      <ol>
+        <li><a href="#">Strona główna</a></li>
+        <li><a href="#">Biznes</a></li>
+        <li><a href="#">Polityka</a></li>
+        <li><a href="#">Morderstwa</a></li>
+        <li><a href="#">Kategorie</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ol>
     </nav>
   </header>
 
