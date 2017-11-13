@@ -1,15 +1,22 @@
 body {
   background-color: rgb(193, 190, 190);
-  width: 1200px;
+  /*width: 1200px;*/
   height: 800px;
-  /* margin: 0 !important;*/
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 !important;
+  /*margin-left: auto;
+  margin-right: auto;*/
   /* border: 1px solid black;*/
   font-family: 'Lato', sans-serif;
   font-size: 20px;
 
 
+}
+
+main {
+  width: 1200px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #logotype {
@@ -22,6 +29,10 @@ body {
   margin-right: auto;
 
   /*border: 1px solid black;*/
+}
+
+#navbar {
+  width: 100%;
 }
 
 #navbar ol {
@@ -142,4 +153,12 @@ nav a {
 .entrytxt {
   display: inline-block;
   font-size: 15px;
+
+}
+.entrytxt h1 {
+  margin-bottom:0em;
+}
+
+.entrytxt p {
+  margin-top:-1em;
 }
